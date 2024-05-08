@@ -1,14 +1,19 @@
 const btnSubmit = document.getElementById('btnSubmit');
+
 const ratingCard = document.querySelector('.rating-card');
 const ratingCircles = document.querySelectorAll('.circle');
 
-console.log(ratingText);
+const ratingText = document.getElementById('rating-text');
+
+const ratingWrapper = document.querySelector('.rating-wrapper');
+const ratedWrapper = document.querySelector('.rated-wrapper');
 
 btnSubmit.addEventListener('click', submitClick);
 
 function submitClick(){
 
-    window.location.href = 'thank-you.html';
+    ratingWrapper.style.display = 'none';
+    ratedWrapper.style.display = 'flex';
 
 }
 
@@ -37,5 +42,8 @@ function selectRating(circle){
 
     circle.style.backgroundColor = clickBackgroundColor;
     circle.style.color = clickTextColor;
+
+    const newCircleTextContent = `You selected ${circle.textContent} out of 5`
+    ratingText.textContent = newCircleTextContent;
 
 }

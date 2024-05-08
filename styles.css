@@ -31,6 +31,16 @@ html, body {
     align-items: center;
 }
 
+.rated-wrapper {
+    height: 100%;
+    width: 100%;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
 .rating-card {
     height: 55%;
     width: 80%;
