@@ -1,6 +1,5 @@
 const btnSubmit = document.getElementById('btnSubmit');
 const ratingCard = document.querySelector('.rating-card');
-const white = 'hsl(0, 0%, 100%)';
 const ratingCircles = document.querySelectorAll('.circle');
 
 btnSubmit.addEventListener('click', submitClick);
@@ -17,8 +16,12 @@ ratingCircles.forEach(
     }
 );
 
+const clickBackgroundColor = 'hsl(217, 12%, 63%)';
+const clickTextColor = 'hsl(0, 0%, 100%)';
+
 function selectRating(circle){
 
-    circle.style.backgroundColor = white;
+    circle.style.backgroundColor = clickBackgroundColor;
+    circle.style.color = clickTextColor;
 
 }
