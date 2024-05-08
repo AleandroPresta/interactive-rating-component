@@ -18,7 +18,8 @@ html, body {
     background-color: var(--very-dark-blue);
     height: 100%;
     width: 100%;
-    color: white; 
+    color: white;
+    font-family: "Overpass", sans-serif;
 }
 
 .rating-wrapper {
@@ -49,3 +50,31 @@ html, body {
     flex-direction: row;
     justify-content: space-evenly;
 }
+
+p {
+    font-size: 15;
+    font-weight: 400;
+    color: var(--light-grey);  
+}
+
+.circle {
+    color: var(--light-grey);
+    height: 45px;
+    width: 45px;
+    min-height: 45px;
+    min-width: 45px;
+    background-color: hsl(216, 12%, 54%, 0.2);
+    border-radius: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*
+
+
+  font-family: "Overpass", sans-serif;
+  font-weight: 400, 700;
+}
+*/
