@@ -65,7 +65,7 @@ html, body {
     margin-top: 0px;
 }
 
-.circle {
+.circle, .star-circle {
     color: var(--light-grey);
     height: 45px;
     width: 45px;
