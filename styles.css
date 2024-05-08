@@ -17,3 +17,13 @@
   margin: 0;
   background-color: var(--very-dark-blue);
 }
+
+.card {
+    border: 2px solid red;
+}
+
+
+.rating-wrapped {
+    display: flex;
+    flex-direction: column;
+}
