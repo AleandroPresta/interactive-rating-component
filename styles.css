@@ -101,6 +101,8 @@ button {
 
 button:hover {
     cursor: pointer;
+    color: var(--orange);
+    background-color: var(--white);
 }
 
 /* thank-you.html styling */
