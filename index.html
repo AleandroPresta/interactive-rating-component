@@ -8,6 +8,10 @@
   <link rel="stylesheet" href="mediaqueries.css">
   <script src="script.js" defer></script>
 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   
   <title>Interactive rating component</title>
@@ -15,40 +19,24 @@
 </head>
 <body>
 
-  <div class="rating-card">
-    <div class="rating-wrapper">
-      <div class="rating-wrapped">
+  <div class="rating-wrapper">
+    <div class="rating-card">
+      <div class="circle">
         <img src="./images/icon-star.svg" alt="Star icon" id="star-icon">
-        <h1>How did we do?</h1>
-        <p>
-          Please let us know how we did with your support request. All feedback is appreciated 
-          to help us improve our offering!
-        </p>
-        <div class="rating-value-container">
-          <div class="circle">
-            <div class="circle-text">
-              1
-            </div>
-          <div class="circle">
-            <div class="circle-text">
-              2
-            </div>
-          <div class="circle">
-            <div class="circle-text">
-              3
-            </div>
-          <div class="circle">
-            <div class="circle-text">
-              4
-            </div>
-          <div class="circle">
-            <div class="circle-text">
-              5
-            </div>
-          </div>
-        </div>
-        <button>Submit</button>
       </div>
+      <h1>How did we do?</h1>
+      <p>
+        Please let us know how we did with your support request. All feedback is appreciated 
+        to help us improve our offering!
+      </p>
+      <div class="rating-value-container">
+        <div class="circle">1</div>
+        <div class="circle">2</div>
+        <div class="circle">3</div>
+        <div class="circle">4</div>
+        <div class="circle">5</div>
+      </div>
+      <button>Submit</button>
     </div>
   </div>
 

@@ -12,18 +12,40 @@
   --very-dark-blue: hsl(216, 12%, 8%);
 }
 
-* {
-  padding: 0;
-  margin: 0;
-  background-color: var(--very-dark-blue);
+html, body {
+    padding: 0;
+    margin: 0;
+    background-color: var(--very-dark-blue);
+    height: 100%;
+    width: 100%;
+    color: white; 
 }
 
-.card {
-    border: 2px solid red;
-}
-
-
-.rating-wrapped {
+.rating-wrapper {
+    height: 100%;
+    width: 100%;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.rating-card {
+    height: 50%;
+    width: 80%;
+    background-color: var(--dark-blue);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+    border-radius: 20px;
+
+    padding: 20px;
+}
+
+.rating-value-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
