@@ -32,7 +32,7 @@ html, body {
 }
 
 .rating-card {
-    height: 50%;
+    height: 55%;
     width: 80%;
     background-color: var(--dark-blue);
 
@@ -48,13 +48,21 @@ html, body {
 .rating-value-container {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
-p {
-    font-size: 15;
+.rating-card > p {
+    font-size: 15px;
     font-weight: 400;
-    color: var(--light-grey);  
+    color: var(--light-grey);
+
+    margin-top: 0px;
+    line-height: 30px;
+}
+
+.rating-card > h1 {
+    margin-bottom: 0px;
+    margin-top: 0px;
 }
 
 .circle {
@@ -69,6 +77,19 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
+
+    font-size: 15px;
+}
+
+button {
+    height: 45px;
+    border-radius: 20px;
+    background-color: var(--orange);
+    color: var(--white);
+    font-weight: 700;
+    border: none;
+
+    letter-spacing: 3px;
 }
 
 /*

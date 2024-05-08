@@ -1,0 +1,21 @@
+@media screen and (min-width: 768px) {
+
+    .rating-card {
+        height: 35%;
+        width: 55%;
+
+        padding: 30px;
+    }
+    
+}
+
+@media screen and (min-width: 1440px) {
+
+    .rating-card {
+        height: 45%;
+        width: 20%;
+
+        padding: 40px;
+    }
+    
+}
