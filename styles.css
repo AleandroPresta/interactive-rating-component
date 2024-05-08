@@ -79,13 +79,15 @@ html, body {
     align-items: center;
 
     font-size: 15px;
+    transition: background-color 0.3s ease;
 }
 
 .circle:hover {
     background-color: var(--orange);
+    cursor: pointer;
 }
 
-.circle:focus {
+.circle:active {
     background-color: var(--white);
 }
 
